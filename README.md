@@ -15,3 +15,4 @@ Export env variables for required configuration.
 Spark submit it
 
 	$ spark-submit --class example.StreamingJob --driver-java-options "-Dconfig.file=conf/application.conf -Dlog4j.configuration=file:conf/log4j.properties" target/scala-2.10/StreamingExample-assembly-1.0.jar
+	t
